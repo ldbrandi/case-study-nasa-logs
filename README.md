@@ -1,12 +1,12 @@
-Resolução do case de Engenharia de dados - Semantix
+# Resolução do case de Engenharia de dados
 
-Exercícios teóricos:
+## Exercícios teóricos:
 
 1. Qual o objetivo do comando cache em Spark?
 
 O Spark tem sua lógica desenhada com Lazy Valuation, o comando cache força o Spark a executar o comando e retornar o conteúdo para a memória.
 
-2. O mesmo código implementado em Spark é normalmentemais rápido que a implementação equivalente em MapReduce. Por quê?
+2. O mesmo código implementado em Spark é normalmente mais rápido que a implementação equivalente em MapReduce. Por quê?
 
 O MapReduce roda em disco, o que garante um custo melhor e robustez no processamento. Já o Spark roda em memória, aumentando o custo por conta do hardware necessário mas tornando o processamento muito mais rápido e eficiente.
 
@@ -38,7 +38,9 @@ A partir deste arquivo, uma variável counts é criada para retornar a contagem 
 
 Por fim a variável counts é salva no HDFS como arquivo de texto.
 
-Exercícios práticos:
+## Exercícios práticos:
+
+_O arquivo com os comandos utilizados está em src/main/scala/Nasa.scala_
 
 1. Número de hosts únicos:
 
